@@ -6,7 +6,7 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeMenu">
+    tools:context="layout.internal.WelcomeMenu">
 
     <TextView
         android:id="@+id/textView"

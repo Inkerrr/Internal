@@ -15,10 +15,10 @@
         android:theme="@style/Theme.Internal"
         tools:targetApi="31">
         <activity
-            android:name=".ProfileReg"
+            android:name="layout.internal.ProfileReg"
             android:exported="false" />
         <activity
-            android:name=".WelcomeMenu"
+            android:name="layout.internal.WelcomeMenu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Register"
+            android:name="layout.internal.Register"
             android:exported="false"
             android:theme="@style/Theme.Internal" />
         <activity
-            android:name=".Login"
+            android:name="layout.internal.Login"
             android:exported="true"
             android:theme="@style/Theme.Internal">
             <intent-filter>
@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="layout.internal.MainActivity"
             android:exported="true" />
     </application>
 
